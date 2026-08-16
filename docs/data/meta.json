@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T12:59:12.981Z",
+  "generatedAt": "2026-08-16T14:07:58.053Z",
   "bbox": [
     -59.433647,
     -35.5791,
@@ -47,7 +47,7 @@
     {
       "mode": "tram",
       "label": "trenes",
-      "color": "#7d2b8b"
+      "color": "#d6212b"
     }
   ],
   "lines": [
@@ -45701,7 +45701,7 @@
     {
       "line": "Belgrano Sur",
       "mode": "tram",
-      "color": "#7d2b8b",
+      "color": "#d6212b",
       "dirs": [
         {
           "dir": "0",
@@ -45876,7 +45876,7 @@
     {
       "line": "Mitre",
       "mode": "tram",
-      "color": "#7d2b8b",
+      "color": "#d6212b",
       "dirs": [
         {
           "dir": "0",
@@ -46093,7 +46093,7 @@
     {
       "line": "Roca",
       "mode": "tram",
-      "color": "#7d2b8b",
+      "color": "#d6212b",
       "dirs": [
         {
           "dir": "0",
@@ -46646,7 +46646,7 @@
     {
       "line": "San Martín",
       "mode": "tram",
-      "color": "#7d2b8b",
+      "color": "#d6212b",
       "dirs": [
         {
           "dir": "0",
@@ -46695,7 +46695,7 @@
     {
       "line": "Sarmiento",
       "mode": "tram",
-      "color": "#7d2b8b",
+      "color": "#d6212b",
       "dirs": [
         {
           "dir": "0",
@@ -46828,7 +46828,7 @@
     {
       "line": "Tren de la Costa",
       "mode": "tram",
-      "color": "#7d2b8b",
+      "color": "#d6212b",
       "dirs": [
         {
           "dir": "0",

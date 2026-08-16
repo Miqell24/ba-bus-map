@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Buenos Aires Public Transport — interactive map</title>
 <link rel="stylesheet" href="vendor/maplibre-gl.css">
-<link rel="stylesheet" href="style.css?v=20260816c">
+<link rel="stylesheet" href="style.css?v=20260816d">
 </head>
 <body>
 <div id="map"></div>
@@ -72,8 +72,10 @@
   <ul class="legend">
     <li><label><input type="checkbox" id="toggle-bus" checked> <span class="sw line"></span> Bus routes</label></li>
     <li class="sublegend">288 l&iacute;neas of the AMBA network &mdash; every ramal drawn, not just the busiest variant of each number</li>
-    <li><label><input type="checkbox" id="toggle-tram" checked> <span class="sw line tram"></span> Tram routes</label></li>
-    <li class="sublegend">Subte <span class="mini sa"></span>A <span class="mini sb"></span>B <span class="mini sc"></span>C <span class="mini sd"></span>D <span class="mini se"></span>E <span class="mini sh"></span>H in official colours, the two Premetro lines, and the six suburban railways in <span class="mini sv"></span> violet</li>
+    <li><label><input type="checkbox" id="toggle-metro" checked> <span class="sw line subte"></span> Subte</label></li>
+    <li class="sublegend">Lines <span class="mini sa"></span>A <span class="mini sb"></span>B <span class="mini sc"></span>C <span class="mini sd"></span>D <span class="mini se"></span>E <span class="mini sh"></span>H in the colours the city names them by</li>
+    <li><label><input type="checkbox" id="toggle-tram" checked> <span class="sw line tram"></span> Premetro &amp; trenes</label></li>
+    <li class="sublegend">The two Premetro lines and the six suburban railways &mdash; Mitre, Roca, Sarmiento, San Mart&iacute;n, Belgrano Sur and the Tren de la Costa</li>
     <li><span class="sw stop"></span> Stop</li>
     <li><span class="sw terminus"></span> Terminus</li>
   </ul>
@@ -109,6 +111,6 @@
   <label class="debug"><input type="checkbox" id="toggle-shape"> show raw GTFS shapes (QA)</label>
 </aside>
 <script src="vendor/maplibre-gl.js"></script>
-<script src="app.js?v=20260816c"></script>
+<script src="app.js?v=20260816d"></script>
 </body>
 </html>

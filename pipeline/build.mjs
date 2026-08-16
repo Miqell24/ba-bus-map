@@ -194,7 +194,11 @@ const trenKey = (sn, r) => ((r && r.route_long_name) || sn || '').split('/')[0].
 if (tramAll || tramSel.length) MODES.push({
   mode: 'tram', label: 'trenes', osmFile: 'data/osm/ba-tren-rail.json',
   graphMode: 'tram', railKeep: new Set(['rail', 'light_rail']),
-  color: '#7d2b8b', colorDark: '#45164e',
+  // Red, like the Premetro and like every tram and railway in this family:
+  // colour means the MODE, and rail is red (user 16.08.2026). The Subte is the
+  // exception that proves it — it keeps its own line colours because the city
+  // names those lines by colour, and it answers to its own toggle.
+  color: '#d6212b', colorDark: '#7c1116',
   all: tramAll, lines: tramAll ? [] : [],
   feeds: [
     { tag: 'tren', dir: 'data/gtfs-tren', routeTypes: ['2'], mapKey: trenKey },

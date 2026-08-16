@@ -18,6 +18,13 @@ Three feeds, because three authorities publish them, split into four cfgs:
 | Premetro | SBASE | PM-C, PM-S | tram tracks |
 | trenes | Trenes Argentinos | Mitre, Roca, Sarmiento, San Martín, Belgrano Sur, Tren de la Costa | mainline rail |
 
+The panel carries **three independent filters**: buses, Subte, and Premetro
+together with the railways. Colour follows the family rule — it means the MODE,
+so both Premetro lines and all six railways are red. The Subte is the one
+exception, and deliberately so: Buenos Aires names those lines by their colours,
+so A stays light blue, B red, C blue, D green, E violet and H yellow, and the
+line keeps its own toggle rather than hiding inside the rail one.
+
 Build quirks worth knowing:
 
 * **Every ramal is drawn, not one route per line.** A *línea* is a trunk that

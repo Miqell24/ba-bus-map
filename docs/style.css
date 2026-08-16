@@ -127,6 +127,7 @@ body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
 .sublegend .mini { display: inline-block; width: 12px; height: 5px; border-radius: 3px; margin: 0 3px 0 7px; vertical-align: 2px; }
 .sublegend .mini:first-child { margin-left: 0; }
 .mini.trolley { background: #149a3f; }
+.sw.line.subte { background: linear-gradient(90deg, #A5C8FF 0 17%, #FF0000 17% 33%, #0000FF 33% 50%, #00AC67 50% 67%, #8300BB 67% 83%, #FFF300 83%); }
 .mini.sa { background: #A5C8FF; }
 .mini.sb { background: #FF0000; }
 .mini.sc { background: #0000FF; }
