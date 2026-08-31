@@ -18,9 +18,32 @@ import { iterCsv, readCsv } from './lib/csv.mjs';
 import { makeProj, resample, nearestOnPolyline, polylineLength } from './lib/geo.mjs';
 import { buildGraph, railKind } from './lib/graph.mjs';
 import { matchShape, extendToStops } from './lib/hmm.mjs';
+import { buildNameDict, latinTitleCase } from './lib/caps.mjs';
 
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+
+// Every feed here shouts its stop names ("5687 RIVADAVIA AV.", half of them
+// with the accents dropped — CORDOBA, PERU, MORON), so they are rewritten to
+// mixed case word by word through a dictionary of accented forms harvested
+// from the OSM extracts (see lib/caps.mjs; the Athens recipe). Real acronyms
+// the rewrite must not touch — title-casing UBA or CCK would produce nonsense.
+const CAPS_ACRONYMS = new Set([
+  'UBA', 'UCA', 'UTN', 'UNLZ', 'UNLA', 'UNQ', 'UNGS', 'UNSAM', 'UNAJ', 'UNPAZ',
+  'CCK', 'AMIA', 'INTA', 'INTI', 'YPF', 'AYSA', 'AFIP', 'ANSES', 'PAMI',
+  'CEAMSE', 'COTO', 'INSSJP', 'ACA', 'AGP', 'AMBA', 'CONICET', 'IOMA', 'UOM',
+  'SMATA', 'UOCRA', 'ECAS', 'RN', 'RP', 'AU',
+]);
+const nameDict = (() => {
+  const docs = [];
+  for (const f of ['data/osm/ba.json', 'data/osm/ba-rail.json', 'data/osm/ba-tren-rail.json']) {
+    const p = join(ROOT, f);
+    if (existsSync(p)) docs.push(JSON.parse(readFileSync(p, 'utf8')));
+  }
+  const d = buildNameDict(docs);
+  console.log(`caps dictionary: ${d.size} accented word forms from ${docs.length} OSM extracts`);
+  return d;
+})();
 
 // No second label line here: Romanian is written in the Latin alphabet, so a
 // street name needs no transliteration and no name:*-Latn lookup — unlike the
@@ -502,6 +525,9 @@ async function processMode(cfg) {
       // ("Dâmbovița (Ion Barac)"), so titleCase stays off and no case
       // dictionary runs here.
       if (feed.titleCase) name = titleCase(name);
+      // ALL-CAPS names → mixed case through the OSM dictionary (see top);
+      // a name that already carries a lowercase letter passes through as is
+      name = latinTitleCase(name, nameDict, CAPS_ACRONYMS);
       const fix = STOP_FIX[feed.tag + ':' + s.stop_id];
       stopsById.set(feed.tag + ':' + s.stop_id, {
         name,
