@@ -32,19 +32,19 @@ PYEOF
 if [ ! -f data/gtfs-bus/routes.txt ]; then
   echo "== GTFS colectivos =="
   curl -fL --retry 3 --max-time 1800 -o data/ba-bus.zip \
-    "https://cdn.buenosaires.gob.ar/datosabiertos/datasets/transporte-y-obras-publicas/colectivos/gtfs.zip"
+    "https://cdn.buenosaires.gob.ar/datosabiertos/datasets/transporte-y-obras-publicas/colectivos-gtfs/colectivos-gtfs.zip"
   unzip -o data/ba-bus.zip -d data/gtfs-bus
 fi
 if [ ! -f data/gtfs-subte/routes.txt ]; then
   echo "== GTFS subte =="
   curl -fL --retry 3 --max-time 600 -o data/ba-subte.zip \
-    "https://cdn.buenosaires.gob.ar/datosabiertos/datasets/sbase/subte-viajes-molinetes/subte_gtfs.zip"
+    "https://cdn.buenosaires.gob.ar/datosabiertos/datasets/sbase/subte-gtfs/subte-gtfs-zip.zip"
   unzip -o data/ba-subte.zip -d data/gtfs-subte
 fi
 if [ ! -f data/gtfs-tren/routes.txt ]; then
   echo "== GTFS trenes =="
   curl -fL --retry 3 --max-time 600 -o data/ba-tren.zip \
-    "https://cdn.buenosaires.gob.ar/datosabiertos/datasets/transporte-y-obras-publicas/trenes/trenes-gtfs.zip"
+    "https://cdn.buenosaires.gob.ar/datosabiertos/datasets/trenes-gtfs/trenes-gtfs.zip"
   unzip -o data/ba-tren.zip -d data/gtfs-tren
 fi
 
