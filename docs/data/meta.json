@@ -45286,6 +45286,97 @@
       ]
     },
     {
+      "line": "P",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Centro Cívico",
+          "variants": 2,
+          "tripCount": 3,
+          "stops": 14,
+          "lengthKm": 6.19,
+          "stats": {
+            "observations": 254,
+            "matched": 254,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.1393839410706756,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "0",
+          "headsign": "General Savio",
+          "variants": 2,
+          "tripCount": 3,
+          "stops": 16,
+          "lengthKm": 7.17,
+          "stats": {
+            "observations": 290,
+            "matched": 290,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.822057878390942,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Saguier",
+          "variants": 2,
+          "tripCount": 3,
+          "stops": 14,
+          "lengthKm": 6.34,
+          "stats": {
+            "observations": 262,
+            "matched": 262,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7023559170192686,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Saguier",
+          "variants": 2,
+          "tripCount": 3,
+          "stops": 16,
+          "lengthKm": 7.32,
+          "stats": {
+            "observations": 297,
+            "matched": 297,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5821808692946593,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
       "line": "A",
       "mode": "tram",
       "color": "#A5C8FF",
@@ -45593,97 +45684,6 @@
             "rawStretchCount": 0,
             "rawMeters": 0,
             "meanError": 4.550781083231644,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ]
-    },
-    {
-      "line": "P",
-      "mode": "tram",
-      "color": "#d6212b",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Centro Cívico",
-          "variants": 2,
-          "tripCount": 3,
-          "stops": 14,
-          "lengthKm": 6.19,
-          "stats": {
-            "observations": 254,
-            "matched": 254,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 3.1393839410706756,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "0",
-          "headsign": "General Savio",
-          "variants": 2,
-          "tripCount": 3,
-          "stops": 16,
-          "lengthKm": 7.17,
-          "stats": {
-            "observations": 290,
-            "matched": 290,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 2.822057878390942,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Saguier",
-          "variants": 2,
-          "tripCount": 3,
-          "stops": 14,
-          "lengthKm": 6.34,
-          "stats": {
-            "observations": 262,
-            "matched": 262,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.7023559170192686,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Saguier",
-          "variants": 2,
-          "tripCount": 3,
-          "stops": 16,
-          "lengthKm": 7.32,
-          "stats": {
-            "observations": 297,
-            "matched": 297,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.5821808692946593,
             "roundaboutSegs": 0,
             "extStart": 0,
             "extEnd": 0

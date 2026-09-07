@@ -187,15 +187,8 @@ const SUBTE = new Set(['A', 'B', 'C', 'D', 'E', 'H']);
 // routes (PM-C, PM-S). Both map to the key P and the branch rides as a
 // variant, the way the colectivos' ramales do (user, 7.09.2026).
 const PREMETRO = new Set(['P']);
-if (tramAll || tramSel.some((l) => SUBTE.has(l))) MODES.push({
-  mode: 'tram', label: 'subte', osmFile: 'data/osm/ba-rail.json',
-  graphMode: 'tram', railKeep: new Set(['subway']), metroCfg: true,
-  color: '#d6212b', colorDark: '#7c1116',
-  all: tramAll, lines: tramAll ? [] : tramSel.filter((l) => SUBTE.has(l)),
-  feeds: [
-    { tag: 'subte', dir: 'data/gtfs-subte', routeTypes: ['1'], mapKey: norm },
-  ],
-});
+// the Premetro cfg goes first: in the panel the tram follows the colectivos,
+// the subte and the trenes come after it (user, 7.09.2026)
 if (tramAll || tramSel.some((l) => PREMETRO.has(l))) MODES.push({
   mode: 'tram', label: 'premetro', osmFile: 'data/osm/ba-rail.json',
   graphMode: 'tram', railKeep: new Set(['tram', 'light_rail']),
@@ -203,6 +196,15 @@ if (tramAll || tramSel.some((l) => PREMETRO.has(l))) MODES.push({
   all: tramAll, lines: tramAll ? [] : tramSel.filter((l) => PREMETRO.has(l)),
   feeds: [
     { tag: 'subte', dir: 'data/gtfs-subte', routeTypes: ['0'], mapKey: () => 'P' },
+  ],
+});
+if (tramAll || tramSel.some((l) => SUBTE.has(l))) MODES.push({
+  mode: 'tram', label: 'subte', osmFile: 'data/osm/ba-rail.json',
+  graphMode: 'tram', railKeep: new Set(['subway']), metroCfg: true,
+  color: '#d6212b', colorDark: '#7c1116',
+  all: tramAll, lines: tramAll ? [] : tramSel.filter((l) => SUBTE.has(l)),
+  feeds: [
+    { tag: 'subte', dir: 'data/gtfs-subte', routeTypes: ['1'], mapKey: norm },
   ],
 });
 // The suburban railways run far past the road bbox — Chascomús is 120 km south
