@@ -182,7 +182,11 @@ const MODES = [{
 const tramAll = tramLines.length === 1 && tramLines[0] === 'all';
 const tramSel = tramLines.filter(Boolean);
 const SUBTE = new Set(['A', 'B', 'C', 'D', 'E', 'H']);
-const PREMETRO = new Set(['PM-C', 'PM-S']);
+// The Premetro is ONE line — Line P, Plaza de los Virreyes – General Savio
+// with the short branch to Centro Cívico — that the feed publishes as two
+// routes (PM-C, PM-S). Both map to the key P and the branch rides as a
+// variant, the way the colectivos' ramales do (user, 7.09.2026).
+const PREMETRO = new Set(['P']);
 if (tramAll || tramSel.some((l) => SUBTE.has(l))) MODES.push({
   mode: 'tram', label: 'subte', osmFile: 'data/osm/ba-rail.json',
   graphMode: 'tram', railKeep: new Set(['subway']), metroCfg: true,
@@ -198,7 +202,7 @@ if (tramAll || tramSel.some((l) => PREMETRO.has(l))) MODES.push({
   color: '#d6212b', colorDark: '#7c1116',
   all: tramAll, lines: tramAll ? [] : tramSel.filter((l) => PREMETRO.has(l)),
   feeds: [
-    { tag: 'subte', dir: 'data/gtfs-subte', routeTypes: ['0'], mapKey: norm },
+    { tag: 'subte', dir: 'data/gtfs-subte', routeTypes: ['0'], mapKey: () => 'P' },
   ],
 });
 // The suburban railways run far past the road bbox — Chascomús is 120 km south

@@ -40,6 +40,8 @@ if [ ! -f data/gtfs-subte/routes.txt ]; then
   curl -fL --retry 3 --max-time 600 -o data/ba-subte.zip \
     "https://cdn.buenosaires.gob.ar/datosabiertos/datasets/sbase/subte-gtfs/subte-gtfs-zip.zip"
   unzip -o data/ba-subte.zip -d data/gtfs-subte
+  # the CDN zip wraps a second, extension-less zip ("subte_gtfs") — 7.09.2026
+  [ -f data/gtfs-subte/subte_gtfs ] && unzip -o data/gtfs-subte/subte_gtfs -d data/gtfs-subte
 fi
 if [ ! -f data/gtfs-tren/routes.txt ]; then
   echo "== GTFS trenes =="
