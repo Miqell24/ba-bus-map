@@ -2445,7 +2445,7 @@
         },
         {
           "dir": "0",
-          "headsign": "a  Ruta 197 y Ruta 8",
+          "headsign": "a Ruta 197 y Ruta 8",
           "variants": 3,
           "tripCount": 39,
           "stops": 49,
@@ -2508,7 +2508,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Canal San Fernando ",
+          "headsign": "a Canal San Fernando",
           "variants": 3,
           "tripCount": 39,
           "stops": 50,
@@ -10915,7 +10915,7 @@
         },
         {
           "dir": "0",
-          "headsign": "Ramal L  - Bº Jorge Newbery x Alberdi",
+          "headsign": "Ramal L - Bº Jorge Newbery x Alberdi",
           "variants": 14,
           "tripCount": 92,
           "stops": 62,
@@ -13393,7 +13393,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Pra. Junta x Av. Rivadavia -",
+          "headsign": "a Pra. Junta x Av. Rivadavia",
           "variants": 35,
           "tripCount": 1,
           "stops": 103,
@@ -13414,7 +13414,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Pra. Junta x Av. Rivadavia -",
+          "headsign": "a Pra. Junta x Av. Rivadavia",
           "variants": 35,
           "tripCount": 1,
           "stops": 87,
@@ -23123,7 +23123,7 @@
       "dirs": [
         {
           "dir": "0",
-          "headsign": "a  S. Cayetano - Zapiola - Ameghino",
+          "headsign": "a S. Cayetano - Zapiola - Ameghino",
           "variants": 4,
           "tripCount": 380,
           "stops": 121,
@@ -23207,7 +23207,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a 9 de Julio ",
+          "headsign": "a 9 de Julio",
           "variants": 4,
           "tripCount": 388,
           "stops": 119,
@@ -25412,7 +25412,7 @@
         },
         {
           "dir": "0",
-          "headsign": "a  Est. Mariano Acosta",
+          "headsign": "a Est. Mariano Acosta",
           "variants": 4,
           "tripCount": 75,
           "stops": 23,
@@ -25517,7 +25517,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Canal San Fernando ",
+          "headsign": "a Canal San Fernando",
           "variants": 4,
           "tripCount": 69,
           "stops": 18,
@@ -25818,7 +25818,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Ciudadela ",
+          "headsign": "a Ciudadela",
           "variants": 4,
           "tripCount": 216,
           "stops": 51,
@@ -25839,7 +25839,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Ciudadela ",
+          "headsign": "a Ciudadela",
           "variants": 4,
           "tripCount": 216,
           "stops": 37,
@@ -25860,7 +25860,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Ciudadela ",
+          "headsign": "a Ciudadela",
           "variants": 4,
           "tripCount": 216,
           "stops": 65,
@@ -25881,7 +25881,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Ciudadela ",
+          "headsign": "a Ciudadela",
           "variants": 4,
           "tripCount": 216,
           "stops": 64,
@@ -26063,7 +26063,7 @@
         },
         {
           "dir": "0",
-          "headsign": "a  Pque. Industrial Pilar Calle 24 x Petrel",
+          "headsign": "a Pque. Industrial Pilar Calle 24 x Petrel",
           "variants": 8,
           "tripCount": 216,
           "stops": 38,
@@ -26084,7 +26084,7 @@
         },
         {
           "dir": "0",
-          "headsign": "a  Bº Las Mascotas",
+          "headsign": "a Bº Las Mascotas",
           "variants": 8,
           "tripCount": 216,
           "stops": 19,
@@ -26252,7 +26252,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Benavidez ",
+          "headsign": "a Benavidez",
           "variants": 8,
           "tripCount": 216,
           "stops": 10,
@@ -26861,7 +26861,7 @@
       "dirs": [
         {
           "dir": "0",
-          "headsign": "R1 - Est. MERLO - SANTA ISABEL ",
+          "headsign": "R1 - Est. MERLO - SANTA ISABEL",
           "variants": 4,
           "tripCount": 216,
           "stops": 71,
@@ -26987,7 +26987,7 @@
         },
         {
           "dir": "1",
-          "headsign": "R2 - SANTA ISABEL X HEREDIA ",
+          "headsign": "R2 - SANTA ISABEL X HEREDIA",
           "variants": 4,
           "tripCount": 216,
           "stops": 52,
@@ -27575,7 +27575,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Est. Morón ",
+          "headsign": "a Est. Morón",
           "variants": 3,
           "tripCount": 106,
           "stops": 62,
@@ -28814,7 +28814,7 @@
         },
         {
           "dir": "0",
-          "headsign": "RAMAL 4 (VERDE)   - IDA",
+          "headsign": "RAMAL 4 (VERDE) - IDA",
           "variants": 9,
           "tripCount": 216,
           "stops": 61,
@@ -28856,7 +28856,7 @@
         },
         {
           "dir": "0",
-          "headsign": "G  (VERDE)",
+          "headsign": "G (VERDE)",
           "variants": 9,
           "tripCount": 77,
           "stops": 183,
@@ -28877,7 +28877,7 @@
         },
         {
           "dir": "0",
-          "headsign": "F  (ROJA)",
+          "headsign": "F (ROJA)",
           "variants": 9,
           "tripCount": 55,
           "stops": 129,
@@ -29003,7 +29003,7 @@
         },
         {
           "dir": "1",
-          "headsign": "RAMAL 4 (VERDE)   - VUELTA",
+          "headsign": "RAMAL 4 (VERDE) - VUELTA",
           "variants": 7,
           "tripCount": 216,
           "stops": 65,
@@ -29066,7 +29066,7 @@
         },
         {
           "dir": "1",
-          "headsign": "A2  (BLANCO)",
+          "headsign": "A2 (BLANCO)",
           "variants": 7,
           "tripCount": 44,
           "stops": 79,
@@ -29479,7 +29479,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Pilar ",
+          "headsign": "a Pilar",
           "variants": 9,
           "tripCount": 244,
           "stops": 51,
@@ -29500,7 +29500,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Lujan ",
+          "headsign": "a Lujan",
           "variants": 9,
           "tripCount": 216,
           "stops": 86,
@@ -29521,7 +29521,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Pilar ",
+          "headsign": "a Pilar",
           "variants": 9,
           "tripCount": 216,
           "stops": 18,
@@ -29542,7 +29542,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Lujan ",
+          "headsign": "a Lujan",
           "variants": 9,
           "tripCount": 216,
           "stops": 79,
@@ -29605,7 +29605,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a El Cazador ",
+          "headsign": "a El Cazador",
           "variants": 9,
           "tripCount": 216,
           "stops": 80,
@@ -30060,7 +30060,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a a Ciudadela ",
+          "headsign": "a a Ciudadela",
           "variants": 2,
           "tripCount": 216,
           "stops": 71,
@@ -30081,7 +30081,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Ciudadela ",
+          "headsign": "a Ciudadela",
           "variants": 2,
           "tripCount": 216,
           "stops": 78,
@@ -31229,7 +31229,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Pte. La Noria ",
+          "headsign": "a Pte. La Noria",
           "variants": 7,
           "tripCount": 128,
           "stops": 37,
@@ -31250,7 +31250,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Spegazzini ",
+          "headsign": "a Spegazzini",
           "variants": 7,
           "tripCount": 122,
           "stops": 83,
@@ -31271,7 +31271,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Spegazzini ",
+          "headsign": "a Spegazzini",
           "variants": 7,
           "tripCount": 108,
           "stops": 101,
@@ -31313,7 +31313,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Spegazzini ",
+          "headsign": "a Spegazzini",
           "variants": 7,
           "tripCount": 25,
           "stops": 84,
@@ -31544,7 +31544,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Est. Moreno ",
+          "headsign": "a Est. Moreno",
           "variants": 2,
           "tripCount": 264,
           "stops": 73,
@@ -31831,7 +31831,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Pacheco ",
+          "headsign": "a Pacheco",
           "variants": 5,
           "tripCount": 216,
           "stops": 110,
@@ -31852,7 +31852,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a José C Paz ",
+          "headsign": "a José C Paz",
           "variants": 5,
           "tripCount": 216,
           "stops": 82,
@@ -31873,7 +31873,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Cruce Derqui ",
+          "headsign": "a Cruce Derqui",
           "variants": 5,
           "tripCount": 216,
           "stops": 66,
@@ -31915,7 +31915,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Base Pacheco ",
+          "headsign": "a Base Pacheco",
           "variants": 5,
           "tripCount": 216,
           "stops": 119,
@@ -32867,7 +32867,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Ciudadela ",
+          "headsign": "a Ciudadela",
           "variants": 1,
           "tripCount": 216,
           "stops": 75,
@@ -32958,7 +32958,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Palomar ",
+          "headsign": "a Palomar",
           "variants": 3,
           "tripCount": 125,
           "stops": 39,
@@ -32979,7 +32979,7 @@
         },
         {
           "dir": "1",
-          "headsign": "Troncal Haedo ",
+          "headsign": "Troncal Haedo",
           "variants": 3,
           "tripCount": 82,
           "stops": 49,
@@ -33245,7 +33245,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Est. Moreno ",
+          "headsign": "a Est. Moreno",
           "variants": 2,
           "tripCount": 186,
           "stops": 70,
@@ -34897,7 +34897,7 @@
       "dirs": [
         {
           "dir": "0",
-          "headsign": "a  Est. del Pilar - x Villa Rosa",
+          "headsign": "a Est. del Pilar - x Villa Rosa",
           "variants": 7,
           "tripCount": 216,
           "stops": 78,
@@ -34918,7 +34918,7 @@
         },
         {
           "dir": "0",
-          "headsign": "a  Est. Pilar x Guido",
+          "headsign": "a Est. Pilar x Guido",
           "variants": 7,
           "tripCount": 216,
           "stops": 62,
@@ -34939,7 +34939,7 @@
         },
         {
           "dir": "0",
-          "headsign": "a  Laferrere x Pringles",
+          "headsign": "a Laferrere x Pringles",
           "variants": 7,
           "tripCount": 216,
           "stops": 74,
@@ -34960,7 +34960,7 @@
         },
         {
           "dir": "0",
-          "headsign": "a  Bº America x San Martin",
+          "headsign": "a Bº America x San Martin",
           "variants": 7,
           "tripCount": 216,
           "stops": 73,
@@ -35002,7 +35002,7 @@
         },
         {
           "dir": "0",
-          "headsign": "a  Garín",
+          "headsign": "a Garín",
           "variants": 7,
           "tripCount": 216,
           "stops": 22,
@@ -35023,7 +35023,7 @@
         },
         {
           "dir": "0",
-          "headsign": "a  Almirante Irizar x Ruta 8",
+          "headsign": "a Almirante Irizar x Ruta 8",
           "variants": 7,
           "tripCount": 216,
           "stops": 24,
@@ -35065,7 +35065,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Est. Villa Astolfi ",
+          "headsign": "a Est. Villa Astolfi",
           "variants": 7,
           "tripCount": 216,
           "stops": 60,
@@ -35086,7 +35086,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Ciudadela ",
+          "headsign": "a Ciudadela",
           "variants": 7,
           "tripCount": 216,
           "stops": 69,
@@ -35107,7 +35107,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Ciudadela ",
+          "headsign": "a Ciudadela",
           "variants": 7,
           "tripCount": 216,
           "stops": 71,
@@ -35128,7 +35128,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Ciudadela ",
+          "headsign": "a Ciudadela",
           "variants": 7,
           "tripCount": 216,
           "stops": 67,
@@ -35149,7 +35149,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Canal San Fernando ",
+          "headsign": "a Canal San Fernando",
           "variants": 7,
           "tripCount": 216,
           "stops": 23,
@@ -36171,7 +36171,7 @@
       "dirs": [
         {
           "dir": "a BERAZATEGUI",
-          "headsign": "a BERAZATEGUI ",
+          "headsign": "a BERAZATEGUI",
           "variants": 1,
           "tripCount": 39,
           "stops": 116,
@@ -39153,7 +39153,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Ituzaingo y 29 de Septiembre ",
+          "headsign": "a Ituzaingo y 29 de Septiembre",
           "variants": 1,
           "tripCount": 228,
           "stops": 28,
@@ -39349,7 +39349,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Ituzaingo y 29 de Septiembre ",
+          "headsign": "a Ituzaingo y 29 de Septiembre",
           "variants": 1,
           "tripCount": 228,
           "stops": 45,
@@ -41183,7 +41183,7 @@
         },
         {
           "dir": "0",
-          "headsign": "a Los Ceibos x 33 x Catán ",
+          "headsign": "a Los Ceibos x 33 x Catán",
           "variants": 19,
           "tripCount": 228,
           "stops": 25,
@@ -42247,7 +42247,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Villa Dorrego ",
+          "headsign": "a Villa Dorrego",
           "variants": 7,
           "tripCount": 228,
           "stops": 60,
@@ -42268,7 +42268,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Escuela N° 135 ",
+          "headsign": "a Escuela N° 135",
           "variants": 7,
           "tripCount": 228,
           "stops": 36,
@@ -42289,7 +42289,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Villa Insuperable ",
+          "headsign": "a Villa Insuperable",
           "variants": 7,
           "tripCount": 228,
           "stops": 48,
@@ -43514,7 +43514,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a X700 Martinez ",
+          "headsign": "a X700 Martinez",
           "variants": 6,
           "tripCount": 228,
           "stops": 56,
@@ -43535,7 +43535,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Martinez ",
+          "headsign": "a Martinez",
           "variants": 6,
           "tripCount": 228,
           "stops": 63,
@@ -43647,7 +43647,7 @@
         },
         {
           "dir": "0",
-          "headsign": "a  Pte. Saavedra",
+          "headsign": "a Pte. Saavedra",
           "variants": 11,
           "tripCount": 228,
           "stops": 62,
@@ -43752,7 +43752,7 @@
         },
         {
           "dir": "0",
-          "headsign": "a  Bº El Arco",
+          "headsign": "a Bº El Arco",
           "variants": 11,
           "tripCount": 228,
           "stops": 18,
@@ -43815,7 +43815,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a R. Rojas ",
+          "headsign": "a R. Rojas",
           "variants": 11,
           "tripCount": 228,
           "stops": 153,
@@ -43941,7 +43941,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Canal ",
+          "headsign": "a Canal",
           "variants": 11,
           "tripCount": 228,
           "stops": 94,
@@ -43983,7 +43983,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Canal ",
+          "headsign": "a Canal",
           "variants": 11,
           "tripCount": 228,
           "stops": 11,
@@ -44004,7 +44004,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Canal ",
+          "headsign": "a Canal",
           "variants": 11,
           "tripCount": 228,
           "stops": 46,
@@ -44116,7 +44116,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Ruta 197 y Colombia ",
+          "headsign": "a Ruta 197 y Colombia",
           "variants": 4,
           "tripCount": 228,
           "stops": 142,
@@ -44158,7 +44158,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Ruta 197 y Colombia ",
+          "headsign": "a Ruta 197 y Colombia",
           "variants": 4,
           "tripCount": 228,
           "stops": 90,
@@ -44382,7 +44382,7 @@
         },
         {
           "dir": "1",
-          "headsign": "a Est. Torcuato ",
+          "headsign": "a Est. Torcuato",
           "variants": 4,
           "tripCount": 228,
           "stops": 61,
